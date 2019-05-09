@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .container#grid{
+            width: 500px;
+            height: 500px;
+            border: 2px solid gray;
+            display: inline-block;
+            padding: 2px;
+            margin: 2px;   
+            background-color: rgb(236, 236, 236);
+        }
+
+        .line{
+            padding: 0;
+            border: 0;
+            margin: 0;   
+        }
+
+        .col{
+            display: inline-block;   
+            padding: 0;
+            border: 0;
+            margin: 0;       
+        }
+
+        div.black{
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+            <button id="reset">Reset Grid</button>
+    </div>
+    <div class="container" id="grid">       
+    </div>
+    
+    <script src="scripts.js"></script>
+
+</body>
+</html>
